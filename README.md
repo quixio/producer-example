@@ -2,11 +2,9 @@
 
 The official Docker image for producing data to Kafka with Python using Quix Streams
 
-This application demonstrates how to process data in Kafka with Python using [Quix Streams](https://quix.io/docs/quix-streams/introduction.html). It uses data in a publicly available read-only Kafka cluster and illustrates how to process the data with a stateful hopping window operator.
+This application demonstrates how to produce data to Kafka with Python using [Quix Streams](https://quix.io/docs/quix-streams/introduction.html). It produces simulated chat messages to a Kafka topic.
 
-This application assumes the data will contain a field called `my_value`.
-
-You can adapt this code to suit your needs.
+You can adapt this code to suit your needs, e.g. call an api or consume any another data source.
 
 ## How to run
 
